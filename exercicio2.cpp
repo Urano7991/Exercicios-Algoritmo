@@ -1,4 +1,5 @@
-//Faça um algoritmo em C++ que pergunte ao usuário a sua idade e levando em conta que um ano tem 365 dias, imprima quantos dias ele já viveu.
+//Faça um algoritmo em C++ que pergunte ao usuário a sua idade e levando em conta que um ano tem 365 dias, 
+//imprima quantos dias ele já viveu.
 #include <iostream>
 
 int main() {
