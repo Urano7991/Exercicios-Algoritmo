@@ -1,6 +1,7 @@
 //Faça um algoritmo em C+ que solicite ao usuário o seu salário e o valor que ele gasta em conta
 //de agua e conta de luz e imprima o total dos seus gastos e o valor que sobra no final do mês do seu
 //salário já descontando os gastos.
+#include <iostream>
 
 int main() {
     float salario, agua, luz, gasto, sobra;
