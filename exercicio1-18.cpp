@@ -10,7 +10,7 @@ int main() {
     
     f = (9 * c + 160) / 5;
     
-    printf("%.1fºº Celsius em Fahrenheit é %.1fºº", c, f);
+    printf("%.1fº Celsius em Fahrenheit é %.1fº", c, f);
     
     
     return 0;
