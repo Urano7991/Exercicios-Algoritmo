@@ -2,25 +2,22 @@
 #include <iostream>
 
 int main() {
-    float num1, num2, media;
+    int num;
     
-    printf("Digite dois numeros: ");
-    scanf("%f %f", &num1, &num2);
+    printf("Digite um numero: ");
+    scanf("%d", &num);
     
-    media = (num1 + num2) / 2;
-    printf("A média é %.2f.", media);
-    
-    if((media > 12) && (media < 30))
+    if(num < 13)
         {
-            printf("\nA média esta entre 12 e 30");
+            printf("%d é ménor que 13.", num);
         }
-    else if(media < 12)
+    else if(num == 13)
         {
-            printf("\nA média é menor que 12.");
+            printf("\n%d é igual a 13.", num);
         }
     else
         {
-            printf("\nA média é maior que 30.");
+            printf("\n%d é maior que 13.", num);
         }
 
     return 0;
