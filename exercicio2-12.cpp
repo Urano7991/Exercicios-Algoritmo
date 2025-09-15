@@ -4,7 +4,7 @@
 int main() {
     int num, num2, soma, dobro;
     
-    printf("Digite um numero: ");
+    printf("Digite dois numeros: ");
     scanf("%d %d", &num, &num2);
     
     soma = num + num2;
