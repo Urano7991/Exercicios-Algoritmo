@@ -4,7 +4,7 @@
 int main() {
     int num;
     
-    printf("Digite três numeros numero: ");
+    printf("Digite um numero: ");
     scanf("%d", &num);
     
     if((num > 21) && (num < 30)) 
